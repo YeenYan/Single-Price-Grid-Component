@@ -1,0 +1,81 @@
+@use '../abstract/' as a;
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 4rem 0;
+}
+
+.card {
+    width: 85%;
+    max-width: 650px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+    padding: 0 1.5em;
+
+}
+
+.container:last-child {
+    margin-bottom: 1.5rem;
+}
+
+.col__first-header {
+    margin: 1.2rem 0;
+}
+
+.col__sub-text {
+    margin: 1.5rem 0;
+}
+
+.col__first-sub-text {
+    margin: 1.5rem 0;
+}
+
+.col__price-content {
+    display: flex;
+    align-items: center;
+}
+
+.month {
+    margin-left: .5rem;
+}
+
+.col__price-text {
+    margin: .5em 0;
+}
+
+.col__cta {
+    display: inline-block;
+    width: 100%;
+    padding: .7em;
+    border-radius: 5px;
+    margin-top: 1.5em;
+}
+
+.col__third-col-text {
+    width: 80%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.attribution {
+    width: 70%;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+

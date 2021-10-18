@@ -1,0 +1,39 @@
+
+
+@media (min-width: 1440px) {
+    
+    
+
+}
+
+
+
+@media (min-width: 600px) {
+
+    .main {
+        margin: 0;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 200px auto;
+    }
+
+    .container {
+        padding: 0 2em;
+    }
+
+    .first-col {
+        grid-column: 1/3;
+    }
+
+    .col__cta {
+        padding: 1em;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 5px;
+    }
+}
