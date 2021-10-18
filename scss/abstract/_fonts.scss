@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+
+.col__first-header {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.col {
+
+    &__sub-text {
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+
+    &__text {
+        font-size: clamp(.9rem, calc(1vw + .5rem),1rem);
+        line-height: 1.5;
+    }
+
+    &__price-price {
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+
+    &__cta {
+        text-decoration: none;
+    }
+
+}
+
+.month {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.col__price-text {
+    font-size: clamp(.9rem, calc(1vw + .5rem),1rem);
+}
+
+.col__third-col-text {
+    font-size: clamp(.9rem, calc(1vw + .5rem),1rem);
+    line-height: 1.5;
+}
+
+.col__cta {
+    text-align: center;
+}

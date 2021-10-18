@@ -1,0 +1,48 @@
+
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+
+body {
+    background-color: $light-gray;
+    color: #fff;
+}
+
+.col {
+
+    &__first-header {
+        color: $cyan;
+    }
+
+    &__first-sub-text {
+        color: $bright-yellow;
+    }
+
+    &__text {
+        color: $grayish-blue;
+    }
+
+    &__cta {
+        color: #fff;
+        background-color: $bright-yellow;
+    }
+
+}
+
+.first-col {
+    background-color: #fff;
+}
+
+.second-col {
+    background-color: $cyan;
+}
+
+.third-col {
+    background-color: rgba($cyan, .8);
+}
+
+.attribution, a {
+    color: $cyan;
+}
